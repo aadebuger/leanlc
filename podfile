@@ -1,0 +1,15 @@
+
+use_frameworks! # LeanCloud Swift SDK can only be integrated as a dynamic framework.
+target "leanlc" do
+    pod 'LeanCloud'
+#pod 'SwiftyJSON', '~> 2.3.2'
+#pod 'Google-AdMob-Ads-SDK'
+pod 'Charts/Realm'
+pod 'Charts'
+pod 'BrainCore'
+pod 'Google-Mobile-Ads-SDK', '~> 7.0'
+
+target "leanlcTests" do
+	inherit! :search_paths
+end
+end
